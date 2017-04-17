@@ -1,4 +1,4 @@
-# Virtualização
+# VIRTUALIZAÇÃO
 
 
 
@@ -6,9 +6,9 @@
   <h3>Equipe</h3>
   <ul>
     <li>Daniel Gustavo</li>
-    <li>Denise</li>
+    <li>Denise </li>
     <li>Gabriel Prates</li>
     <li>Hadylla Maria</li>
-    <li>Matheus</li>
+    <li>Matheus Queiroz</li>
   </ul>
 </div>

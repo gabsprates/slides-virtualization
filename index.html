@@ -35,8 +35,18 @@
         <section data-markdown='slides/vantagens.md' data-separator-vertical="^\n\n\n"></section>
         <section data-background="./images/tio_ben.gif"></section>
         <section data-markdown='slides/desvantagens.md' data-separator-vertical="^\n\n\n"></section>
-
         <section data-markdown='slides/como_funciona.md' data-separator-vertical="^\n\n\n"></section>
+
+        <section>
+          <h2>VIRTUALIZAÇÃO TOTAL</h2>
+          <p>É o modo em que o guest trabalha como se não houvesse virtualização, ou seja, ele mesmo seria a máquina física real, assim não sofrendo nenhuma adaptação. Correndo o risco de algumas solicitações não serem atendidas da forma esperada. Um exemplo é quando o hypervisor não consegue acessar uma instrução por falta de driver instalado.</p>
+        </section>
+
+        <section>
+          <h2>PARAVIRTUALIZAÇÃO</h2>
+          <p>Neste modo o sistema virtualizado sabe que está em um ambiente virtual, surgindo então soluções para os erros da virtualização total. Assim o SO é modificado para recorrer ao Hypervisor quando necessitar de uma instrução privilegiada e não diretamente ao processador. Diminuindo os problemas com compatibilidade de drivers pois o guest acaba podendo utilizar drivers adequados.</p>
+        </section>
+
         <section data-markdown='slides/tipos.md' data-separator-vertical="^\n\n\n"></section>
         <section data-markdown='slides/ferramentas.md' data-separator-vertical="^\n\n\n"></section>
 
@@ -44,6 +54,10 @@
         <section data-background="./images/awesome.gif">
           <h2 style='text-shadow: 1px 1px 2px #000;'>Virtualization is AWESOME!!!!</h2>
         </section>
+
+        <section data-markdown='slides/referencias.md'></section>
+
+        <section><h1>Obrigado</h1></section>
       </div>
     </div>
     <script src="node_modules/reveal.js/lib/js/head.min.js"></script>

@@ -1,4 +1,4 @@
-## Vantagens
+## VANTAGENS
 
 <ul>
   <li class='fragment'>Diversidade de plataformas</li>

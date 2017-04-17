@@ -4,7 +4,9 @@
 
 
 
+<p style="margin: 0;">
 ![containers](./images/container_vs_vm.jpg)
+</p>
 
 
 
@@ -22,3 +24,11 @@
   </li>
   <li class='fragment'>Escalar aplicações</li>
 </ul>
+
+
+
+### Ferramentas
+
+* Linux LXC
+* Docker
+* Oracle Solaris
